@@ -1,0 +1,12 @@
+{
+    "PAGE":"authorize",
+    "authorize":"授权",
+    "subTitle":"授权查询、调取开户信息进行贷款申请",
+    "content-one":"本人已阅读、完全明白及同意",
+    "content-two":"的所有条款；本人明白如不同意以上",
+    "content-three":"的所有条款；本人明白如不同意以上",
+    "content-four":"并不选择此项，本人将不可到",
+    "content-five":"下一步",
+    "action-word":"授权，下一步",
+    "loanBasicInfo": "贷款申请"
+}
