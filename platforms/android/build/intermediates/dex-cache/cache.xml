@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-26.1.0_99a4049bf8cbe02f675bc11cbcd311664a5cabea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\evel.yi\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\2.0.1\516c03b21d50a644d538de0f0369c620989cd8f0\jsr305-2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\pre-dexed\debug\jsr305-2.0.1_0dd3a4a928ae96a76cf879ff6289514c53d7baea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\pre-dexed\debug\android.arch.lifecycle-runtime-1.0.0_0dbeba7179becd416ac9760c96cce70256f1f7d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\evel.yi\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\pre-dexed\debug\common-1.0.0_710390d46ace15306944128d1beaf6549128f15a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\exploded-aar\com.taobao.android\weexplugin-loader\1.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="c85f46e9eed1cccfd0bf5df199dd53a66de98651">
+        <dex dex="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\pre-dexed\debug\com.taobao.android-weexplugin-loader-1.3_edfc3e900ea296576b4a04e416e5a8e0a3311921.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\evel.yi\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\pre-dexed\debug\core-3.2.1_69b667f9226e2d024a0efbcc62c7bd660b26e5cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\exploded-aar\com.android.support\transition\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="58b12bdb21a84f22e0dc3b047aeceb0a546b1b44">
+        <dex dex="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-transition-26.1.0_c3c9c298b04f26e8aa8e4f718f076fd62a6cda9b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\evel.yi\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.1.0\814258103cf26a15fcc26ecce35f5b7d24b73f8\support-annotations-26.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\pre-dexed\debug\support-annotations-26.1.0_3740a7d03ed4f5debf3d8a23b4c58fb080cdefb0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-26.1.0_2e9266f1a703a8dee3b8de34a5eca79806383fb6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-26.1.0_3d96731d2a273c0d52d84d290200b5425ecffa47.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\evel.yi\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\pre-dexed\debug\common-1.0.0_083c94e313584a26dda8dd258a78ed348fa87a99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\evel.yi\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-ws\2.3.0\7896d229b6aa7884552ab9c23de54c7eb0de8203\okhttp-ws-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7896d229b6aa7884552ab9c23de54c7eb0de8203">
+        <dex dex="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\pre-dexed\debug\okhttp-ws-2.3.0_950af0174ae3e5fdbe286a11d2b3f9aac27344ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b12cd9c87c3dfb012a911b6e38d2444ed0a65e1f">
+        <dex dex="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-26.1.0_8213a5c599c5b2851391922b4525324ad17019ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-26.1.0_c27d3c21d279cd83da37a723b666891630999ed9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\evel.yi\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_cfad995b23236cd27c0a641233f571f813821a17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-26.1.0_1bdbc8db32d75121abf91a7fe8484d461209970a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\evel.yi\.gradle\caches\modules-2\files-2.1\com.taobao.android\weexplugin-annotation\1.3\f9c594cafe95ab01986863300b2f2993b5777b42\weexplugin-annotation-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f9c594cafe95ab01986863300b2f2993b5777b42">
+        <dex dex="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\pre-dexed\debug\weexplugin-annotation-1.3_2923ae8c8b5ac9e8aebf25aea9b017929ae9b623.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\evel.yi\.gradle\caches\modules-2\files-2.1\com.taobao.android\weexplugin-processor\1.3\90f4c5cdb14a255dd3cc341b563271494e8cd941\weexplugin-processor-1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="90f4c5cdb14a255dd3cc341b563271494e8cd941">
+        <dex dex="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\pre-dexed\debug\weexplugin-processor-1.3_17e64859bdcbcbb9960956e310f567a3c31de4b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-26.1.0_147efa20fedbbcbc3cbf446a6a2ee113a4600f97.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\evel.yi\.gradle\caches\modules-2\files-2.1\com.alibaba\fastjson\1.1.46.android\108717c93f7aec31fb86db57cb4ad1e26034c638\fastjson-1.1.46.android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="108717c93f7aec31fb86db57cb4ad1e26034c638">
+        <dex dex="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\pre-dexed\debug\fastjson-1.1.46.android_8cffa6210a6a752ed6b8fc0a98480666ae829c79.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\exploded-aar\com.taobao.android\weex_inspector\0.10.0.5\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="575d72d4a489260763ca62b2b54450fdec3bebd1">
+        <dex dex="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\pre-dexed\debug\com.taobao.android-weex_inspector-0.10.0.5_f109f7067dd1c91b08bd72509be80daa2b1e57d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-26.1.0_a05c61b1e6871e3e823a892d456bd97996860c8f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\evel.yi\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.3.0\1b355f73402020c5a0dcca58affc3ec3dfeabac1\okio-1.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="1b355f73402020c5a0dcca58affc3ec3dfeabac1">
+        <dex dex="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\pre-dexed\debug\okio-1.3.0_17841179d34dc80638706a4ade1fbd7032143e91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\evel.yi\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.3.0\2e7bc7033dc2c8423e661224171b3133fb155b28\okhttp-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2e7bc7033dc2c8423e661224171b3133fb155b28">
+        <dex dex="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\pre-dexed\debug\okhttp-2.3.0_7ba1a1065769fd0d626b21fc80fd66c41b4fe0f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\exploded-aar\com.journeyapps\zxing-android-embedded\3.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="0e1f104cf60bfe34147ef670229f2635789c79a4">
+        <dex dex="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\pre-dexed\debug\com.journeyapps-zxing-android-embedded-3.4.0_e64fcafc1666f0ed1941407be1b1594e40cde21b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-26.1.0_00dbe775c3775691b3bc2e1127240f29ac616853.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\exploded-aar\com.taobao.android\weex_sdk\0.16.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9cfcc5fc657d64c980b45db00cd75695d1ce2256">
+        <dex dex="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\pre-dexed\debug\com.taobao.android-weex_sdk-0.16.0_7e7967f5b37e181a33b858336ab45a099e4d5e1e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-26.1.0_d1f7849f51ffbee7dd7ef882781db1edad8f75c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\exploded-aar\com.android.support\design\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="a37fc31c5ceeaa4532a37358add1b189d8db4af1">
+        <dex dex="E:\myFile\selfDemo\weex-study01\platforms\android\app\build\intermediates\pre-dexed\debug\com.android.support-design-26.1.0_c88050df666ce9a824654f262326b8a9ee70e0b0.jar" />
+    </item>
+
+</items>

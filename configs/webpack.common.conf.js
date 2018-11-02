@@ -104,7 +104,8 @@ const webConfig = {
   resolve: {
     extensions: ['.js', '.vue', '.json'],
     alias: {
-      '@': helper.resolve('src')
+      '@': helper.resolve('src'),
+      '~': helper.resolve('src'),
     }
   },
   /*
@@ -181,7 +182,8 @@ const weexConfig = {
   resolve: {
     extensions: ['.js', '.vue', '.json'],
     alias: {
-      '@': helper.resolve('src')
+      '@': helper.resolve('src'),
+      '~': helper.resolve('src'),
     }
   },
   /*
@@ -205,6 +207,10 @@ const weexConfig = {
           options: vueLoaderConfig({useVue: false})
         }],
         exclude: config.excludeModuleReg
+      },
+      {
+        test: /\.scss$/,
+        loaders: ["style", "css", "sass","scss"]
       }
     ]
   },

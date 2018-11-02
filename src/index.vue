@@ -1,5 +1,6 @@
 <template>
   <div class="wrapper">
+     <!-- <image src='https://gw.alicdn.com/tfs/TB1yopEdgoQMeJjy1XaXXcSsFXa-640-302.png' style="width:50px;height:50px"/> -->
     <router-view/>
   </div>
 </template>

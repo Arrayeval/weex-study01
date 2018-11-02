@@ -1,0 +1,8 @@
+
+@function px2vwh($val,$flag) {
+  @if $flag == 'h' {
+      @return #{$val /667*100}vh;
+  } @else if $flag == 'w' {
+      @return #{$val /375*100}vw;
+  }
+}
