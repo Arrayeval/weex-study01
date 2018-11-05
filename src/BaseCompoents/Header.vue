@@ -42,7 +42,7 @@ export default {
   padding-right:20px;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center
+  align-items: center;
 }
 .nav-wrapper{
   flex-direction: row;

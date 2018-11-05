@@ -33,4 +33,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+.content-wrapper{
+  margin-bottom:20px
+}
 </style>

@@ -24,12 +24,13 @@ export default {
   top:80px;
   left:0;
   width:750px;
+  padding-bottom:20px;
 }
 .list-nav-view{
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background: #d43c33;
+  background-color: #d43c33;
   height:80px;
   padding-bottom:5px;
 }
