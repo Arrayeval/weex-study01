@@ -1,5 +1,5 @@
 <template>
-  <div class="player-wrapper-container" @click="_playMusic">
+  <div class="player-wrapper-container" >
     <div class="player-outer">
       <div class="music-icon" ref="musicIcon">
         <image class="img-icon" src="http://img5.imgtn.bdimg.com/it/u=1371276359,139579824&fm=200&gp=0.jpg"/>
@@ -9,7 +9,7 @@
         <text class="music-info">横划可以切换上下首</text>
       </div>
       <div class="music-action">
-        <div class="music-start">
+        <div class="music-start" @click="_playMusic">
           <image class="player-icon" :src="_getImageFile('player.png')"/>
         </div>
         <div class="music-list-icon">
