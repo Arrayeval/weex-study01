@@ -49,7 +49,7 @@ export default {
       this.$router.push({name})
     },
 
-     // weex 不支持动态加载样式(vue的平常写法,故有此方法折中)
+    // weex 不支持动态加载样式(vue的平常写法,故有此方法折中)
     _activeClassSty (tagName) {
       if (tagName === this.curItem) {
         return 'nav-item-active'
@@ -96,7 +96,7 @@ export default {
 .nav-item{
   width:40px;
   height:40px;
-  transform: scale(1);
+  transform: scale(0.9);
 }
 .nav-item-active{
   transform: scale(1.2);

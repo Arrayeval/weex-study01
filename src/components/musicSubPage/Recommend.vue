@@ -42,19 +42,19 @@
             <div class="part-list">
               <div class="part-item">
                 <div class="part-item-icon-wrapper">
-                  <image class="content-item-img" resize="cover" src="http://h.hiphotos.baidu.com/image/h%3D300/sign=5573dd5fbede9c82b965ff8f5c8180d2/d1160924ab18972b132c39acebcd7b899e510a45.jpg"/>
+                  <image class="content-item-img" resize="cover" src="http://img1.imgtn.bdimg.com/it/u=4269449836,3142709149&fm=200&gp=0.jpg"/>
                 </div>
                 <text class="content-item-bottom-text">[星空的旋律]拦下整个星空的纯音乐</text>
               </div>
               <div class="part-item">
                 <div class="part-item-icon-wrapper">
-                  <image class="content-item-img" resize="cover" src="http://h.hiphotos.baidu.com/image/h%3D300/sign=5573dd5fbede9c82b965ff8f5c8180d2/d1160924ab18972b132c39acebcd7b899e510a45.jpg"/>
+                  <image class="content-item-img" resize="cover" src="http://img1.imgtn.bdimg.com/it/u=4269449836,3142709149&fm=200&gp=0.jpg"/>
                 </div>
                 <text class="content-item-bottom-text">[星空的旋律]拦下整个星空的纯音乐</text>
               </div>
               <div class="part-item">
                 <div class="part-item-icon-wrapper">
-                  <image class="content-item-img" resize="cover" src="http://h.hiphotos.baidu.com/image/h%3D300/sign=5573dd5fbede9c82b965ff8f5c8180d2/d1160924ab18972b132c39acebcd7b899e510a45.jpg"/>
+                  <image class="content-item-img" resize="cover" src="http://img1.imgtn.bdimg.com/it/u=4269449836,3142709149&fm=200&gp=0.jpg"/>
                 </div>
                 <text class="content-item-bottom-text">[星空的旋律]拦下整个星空的纯音乐</text>
               </div>
@@ -88,42 +88,19 @@
             <div class="part-list">
               <div class="part-item">
                 <div class="part-item-icon-wrapper">
-                  <image class="content-item-img" resize="cover" src="http://h.hiphotos.baidu.com/image/h%3D300/sign=5573dd5fbede9c82b965ff8f5c8180d2/d1160924ab18972b132c39acebcd7b899e510a45.jpg"/>
+                  <image class="content-item-img" resize="cover" src="http://img1.imgtn.bdimg.com/it/u=4269449836,3142709149&fm=200&gp=0.jpg"/>
                 </div>
                 <text class="content-item-bottom-text">[星空的旋律]拦下整个星空的纯音乐</text>
               </div>
               <div class="part-item">
                 <div class="part-item-icon-wrapper">
-                  <image class="content-item-img" resize="cover" src="http://h.hiphotos.baidu.com/image/h%3D300/sign=5573dd5fbede9c82b965ff8f5c8180d2/d1160924ab18972b132c39acebcd7b899e510a45.jpg"/>
+                  <image class="content-item-img" resize="cover" src="http://img1.imgtn.bdimg.com/it/u=4269449836,3142709149&fm=200&gp=0.jpg"/>
                 </div>
                 <text class="content-item-bottom-text">[星空的旋律]拦下整个星空的纯音乐</text>
               </div>
               <div class="part-item">
                 <div class="part-item-icon-wrapper">
-                  <image class="content-item-img" resize="cover" src="http://h.hiphotos.baidu.com/image/h%3D300/sign=5573dd5fbede9c82b965ff8f5c8180d2/d1160924ab18972b132c39acebcd7b899e510a45.jpg"/>
-                </div>
-                <text class="content-item-bottom-text">[星空的旋律]拦下整个星空的纯音乐</text>
-              </div>
-            </div>
-              <div class="title-nav">
-              <text class="title-text">推荐歌单</text>
-            </div>
-            <div class="part-list">
-              <div class="part-item">
-                <div class="part-item-icon-wrapper">
-                  <image class="content-item-img" resize="cover" src="http://h.hiphotos.baidu.com/image/h%3D300/sign=5573dd5fbede9c82b965ff8f5c8180d2/d1160924ab18972b132c39acebcd7b899e510a45.jpg"/>
-                </div>
-                <text class="content-item-bottom-text">[星空的旋律]拦下整个星空的纯音乐</text>
-              </div>
-              <div class="part-item">
-                <div class="part-item-icon-wrapper">
-                  <image class="content-item-img" resize="cover" src="http://h.hiphotos.baidu.com/image/h%3D300/sign=5573dd5fbede9c82b965ff8f5c8180d2/d1160924ab18972b132c39acebcd7b899e510a45.jpg"/>
-                </div>
-                <text class="content-item-bottom-text">[星空的旋律]拦下整个星空的纯音乐</text>
-              </div>
-              <div class="part-item">
-                <div class="part-item-icon-wrapper">
-                  <image class="content-item-img" resize="cover" src="http://h.hiphotos.baidu.com/image/h%3D300/sign=5573dd5fbede9c82b965ff8f5c8180d2/d1160924ab18972b132c39acebcd7b899e510a45.jpg"/>
+                  <image class="content-item-img" resize="cover" src="http://img1.imgtn.bdimg.com/it/u=4269449836,3142709149&fm=200&gp=0.jpg"/>
                 </div>
                 <text class="content-item-bottom-text">[星空的旋律]拦下整个星空的纯音乐</text>
               </div>
@@ -134,19 +111,19 @@
             <div class="part-list">
               <div class="part-item">
                 <div class="part-item-icon-wrapper">
-                  <image class="content-item-img" resize="cover" src="http://h.hiphotos.baidu.com/image/h%3D300/sign=5573dd5fbede9c82b965ff8f5c8180d2/d1160924ab18972b132c39acebcd7b899e510a45.jpg"/>
+                  <image class="content-item-img" resize="cover" src="http://img1.imgtn.bdimg.com/it/u=4269449836,3142709149&fm=200&gp=0.jpg"/>
                 </div>
                 <text class="content-item-bottom-text">[星空的旋律]拦下整个星空的纯音乐</text>
               </div>
               <div class="part-item">
                 <div class="part-item-icon-wrapper">
-                  <image class="content-item-img" resize="cover" src="http://h.hiphotos.baidu.com/image/h%3D300/sign=5573dd5fbede9c82b965ff8f5c8180d2/d1160924ab18972b132c39acebcd7b899e510a45.jpg"/>
+                  <image class="content-item-img" resize="cover" src="http://img1.imgtn.bdimg.com/it/u=4269449836,3142709149&fm=200&gp=0.jpg"/>
                 </div>
                 <text class="content-item-bottom-text">[星空的旋律]拦下整个星空的纯音乐</text>
               </div>
               <div class="part-item">
                 <div class="part-item-icon-wrapper">
-                  <image class="content-item-img" resize="cover" src="http://h.hiphotos.baidu.com/image/h%3D300/sign=5573dd5fbede9c82b965ff8f5c8180d2/d1160924ab18972b132c39acebcd7b899e510a45.jpg"/>
+                  <image class="content-item-img" resize="cover" src="http://img1.imgtn.bdimg.com/it/u=4269449836,3142709149&fm=200&gp=0.jpg"/>
                 </div>
                 <text class="content-item-bottom-text">[星空的旋律]拦下整个星空的纯音乐</text>
               </div>
@@ -157,19 +134,42 @@
             <div class="part-list">
               <div class="part-item">
                 <div class="part-item-icon-wrapper">
-                  <image class="content-item-img" resize="cover" src="http://h.hiphotos.baidu.com/image/h%3D300/sign=5573dd5fbede9c82b965ff8f5c8180d2/d1160924ab18972b132c39acebcd7b899e510a45.jpg"/>
+                  <image class="content-item-img" resize="cover" src="http://img2.imgtn.bdimg.com/it/u=1300026058,3690059792&fm=200&gp=0.jpgg"/>
                 </div>
                 <text class="content-item-bottom-text">[星空的旋律]拦下整个星空的纯音乐</text>
               </div>
               <div class="part-item">
                 <div class="part-item-icon-wrapper">
-                  <image class="content-item-img" resize="cover" src="http://h.hiphotos.baidu.com/image/h%3D300/sign=5573dd5fbede9c82b965ff8f5c8180d2/d1160924ab18972b132c39acebcd7b899e510a45.jpg"/>
+                  <image class="content-item-img" resize="cover" src="http://img1.imgtn.bdimg.com/it/u=4269449836,3142709149&fm=200&gp=0.jpg"/>
                 </div>
                 <text class="content-item-bottom-text">[星空的旋律]拦下整个星空的纯音乐</text>
               </div>
               <div class="part-item">
                 <div class="part-item-icon-wrapper">
-                  <image class="content-item-img" resize="cover" src="http://h.hiphotos.baidu.com/image/h%3D300/sign=5573dd5fbede9c82b965ff8f5c8180d2/d1160924ab18972b132c39acebcd7b899e510a45.jpg"/>
+                  <image class="content-item-img" resize="cover" src="http://img2.imgtn.bdimg.com/it/u=1300026058,3690059792&fm=200&gp=0.jpg"/>
+                </div>
+                <text class="content-item-bottom-text">[星空的旋律]拦下整个星空的纯音乐</text>
+              </div>
+            </div>
+              <div class="title-nav">
+              <text class="title-text">推荐歌单</text>
+            </div>
+            <div class="part-list">
+              <div class="part-item">
+                <div class="part-item-icon-wrapper">
+                  <image class="content-item-img" resize="cover" src="http://img1.imgtn.bdimg.com/it/u=4269449836,3142709149&fm=200&gp=0.jpg"/>
+                </div>
+                <text class="content-item-bottom-text">[星空的旋律]拦下整个星空的纯音乐</text>
+              </div>
+              <div class="part-item">
+                <div class="part-item-icon-wrapper">
+                  <image class="content-item-img" resize="cover" src="http://img1.imgtn.bdimg.com/it/u=4269449836,3142709149&fm=200&gp=0.jpg"/>
+                </div>
+                <text class="content-item-bottom-text">[星空的旋律]拦下整个星空的纯音乐</text>
+              </div>
+              <div class="part-item">
+                <div class="part-item-icon-wrapper">
+                  <image class="content-item-img" resize="cover" src="http://img2.imgtn.bdimg.com/it/u=1300026058,3690059792&fm=200&gp=0.jpg"/>
                 </div>
                 <text class="content-item-bottom-text">[星空的旋律]拦下整个星空的纯音乐</text>
               </div>
@@ -219,13 +219,13 @@ export default {
   .bg-col{
     width:750px;
     height:70px;
-    background-color: #fff;
+    background-color: #ffffff;
   }
   .content-wrapper{
-    margin-top:90px;
+    margin-top:50px;
     padding-left:10px;
     padding-right:10px;
-    min-height:140px;
+    // min-height:140px;
   }
   .nav-list-wrapper{
     height:150px;
@@ -278,7 +278,7 @@ export default {
   .part-item{
     margin-top:20px;
     margin-bottom:40px;
-    flex-direction: column;
+    // flex-direction: column;
     align-items: center;
     justify-content:space-around;
     // text-align: left;
@@ -301,7 +301,7 @@ export default {
     font-size:23px;
     height:70px;
     line-height: 35px;
-    text-align: left;
+    // text-align: left;
     padding-top:5px;
     text-overflow: ellipsis;
     color:rgb(170,170,170)

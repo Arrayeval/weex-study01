@@ -36,7 +36,7 @@ export default {
 <style lang="scss" scoped>
   @import '~/scss/minin.scss';
   .main-container{
-    display: flex;
+    // display: flex;
     // flex-direction: column;
   }
   .header-wrapper{

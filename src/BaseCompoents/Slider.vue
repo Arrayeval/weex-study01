@@ -3,7 +3,7 @@
     <slider class="slider" interval="3000" auto-play="true" show-indicators="true"  scrollable ="true" :index="2">
       <div class="frame" v-for="(img, idx) in imageList" :key="idx">
         <image class="image" resize="strehch" :src="img.src"/>
-        <!-- <text style="left:20px;top:20px;color:red;position:absolute">{{idx}}</text> -->
+        <text style="left:20px;top:20px;color:red;position:absolute">{{idx}}</text>
       </div>
     </slider>
   </div>
@@ -11,8 +11,8 @@
 
 <style scoped>
 .image {
-  width: 700px;
-  height: 200px;
+  width: 680px;
+  height: 180px;
 }
 .slider {
   margin-top: 25px;
@@ -22,21 +22,22 @@
   border-width: 2px;
   border-style: solid;
   border-color: transparent;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 .image{
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 .frame {
   width: 700px;
   height: 200px;
-  position: relative;
+  /* position: relative; */
+  align-items: center;
 }
 </style>
 
