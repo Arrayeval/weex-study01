@@ -1,7 +1,47 @@
 [
     {
+        "merged": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ranking_sponsor_post.png",
+        "source": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ranking_sponsor_post.png"
+    },
+    {
+        "merged": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\video.png",
+        "source": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\video.png"
+    },
+    {
+        "merged": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\fm.png",
+        "source": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\fm.png"
+    },
+    {
+        "merged": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\music_list.png",
+        "source": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\music_list.png"
+    },
+    {
+        "merged": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nav.png",
+        "source": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\nav.png"
+    },
+    {
+        "merged": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\hot_item.png",
+        "source": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\hot_item.png"
+    },
+    {
+        "merged": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\search.png",
+        "source": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\search.png"
+    },
+    {
         "merged": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_refresh.png",
         "source": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ic_action_refresh.png"
+    },
+    {
+        "merged": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\music.png",
+        "source": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\music.png"
+    },
+    {
+        "merged": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\calendar.png",
+        "source": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\calendar.png"
+    },
+    {
+        "merged": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\rank_list.png",
+        "source": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\rank_list.png"
     },
     {
         "merged": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_scan.png",

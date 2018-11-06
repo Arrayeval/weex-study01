@@ -10,25 +10,26 @@
       <div class="nav-list-wrapper">
         <div class="nav-item">
           <div class="item-icon">
-            <image class="item-img" src="/src/assets/icons/fm.png"/>
+            <image class="item-img"  :src = "_getImageFile('fm.png')"/>
           </div>
           <text class="icon-text">私人FM</text>
         </div>
         <div class="nav-item">
           <div class="item-icon">
-              <image class="item-img" src="/src/assets/icons/calendar.png"/>
+              <image class="item-img" :src = "_getImageFile('calendar.png')"/>
           </div>
           <text class="icon-text">每日推荐</text>
         </div>
         <div class="nav-item">
           <div class="item-icon">
-            <image class="item-img" src="/src/assets/icons/music-list.png"/>
+            <image class="item-img" :src = "_getImageFile('music_list.png')"/>
           </div>
           <text class="icon-text">歌单</text>
         </div>
         <div class="nav-item">
           <div class="item-icon">
-            <image class="item-img" src="/src/assets/icons/ranking_sponsor_post.png"/>
+            <!-- <image class="item-img"  src="local:///ranking_sponsor_post"/> -->
+            <image class="item-img" :src = "_getImageFile('ranking_sponsor_post.png')"/>
           </div>
           <text class="icon-text">排行榜</text>
         </div>
@@ -180,8 +181,15 @@
 </template>
 <script>
 import SliderCom from '@/BaseCompoents/Slider'
+import {getImageFile} from '@/utils/common'
 export default {
   name: 'Recommend',
+  methods: {
+    _getImageFile (ImageName) {
+      return getImageFile(ImageName)
+      // console.log(getImageFile(ImageName))
+    }
+  },
   components: {
     SliderCom
   }
@@ -245,7 +253,7 @@ export default {
   .icon-text{
     text-align: center;
     margin-top:10px;
-    font-size:15px;
+    font-size:20px;
   }
   .item-img{
     width:70px;
@@ -257,7 +265,7 @@ export default {
     // padding-right:5px;
   }
   .part-item-wrapper{
-    overflow: scroll;
+    // overflow: scroll;
   }
   .title-text{
     font-size:27px;
@@ -273,7 +281,7 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content:space-around;
-    text-align: left;
+    // text-align: left;
     width:200px;;
   }
   .part-item-icon-wrapper{

@@ -502,3 +502,28 @@ export function touchMoveElement (el) {
 // export function translateRule (dp) {
 //   return dp * 750 / ( deviceWidth / scale );
 // }
+
+/**
+ *针对weex的多端本地资源加载
+ **/
+export function getImageFile (imageName) {
+  if (!weex || !weex.config || !weex.config.env) {
+    return
+  }
+  let _dotPoint = (imageName + '').lastIndexOf('.')
+  let _pureFileName = (imageName + '').slice(0, _dotPoint)
+  // let _imageFormat = (imageName + '').slice(_dotPoint)
+  // 平台信息
+  let _platform = weex.config.env.platform
+  if (_platform === 'android') {
+    let _filePrefix = 'local:///'
+    return _filePrefix + _pureFileName
+  }
+  if (_platform === 'iOS') {
+    return ''
+  }
+  if (_platform === 'Web') {
+    let _filePrefix = '../../src/assets/icons/'
+    return _filePrefix + imageName
+  }
+}

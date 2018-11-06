@@ -4,10 +4,14 @@
       <ListHome/>
     </div>
     <router-view></router-view>
+    <div class="player-wrapper">
+      <Player/>
+    </div>
   </div>
 </template>
 <script>
 import ListHome from '@/components/ListHome'
+import Player from '@/BaseCompoents/Player'
 export default {
   name: 'MusicItem',
   data () {
@@ -25,7 +29,8 @@ export default {
     }
   },
   components: {
-    ListHome
+    ListHome,
+    Player
   },
   created () {
     this.$router.push({name: 'Recommend'})
@@ -35,5 +40,11 @@ export default {
 <style lang="scss" scoped>
 .content-wrapper{
   margin-bottom:20px
+}
+.player-wrapper{
+  position: fixed;
+  bottom:0;
+  left:0;
+  right:0;
 }
 </style>

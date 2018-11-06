@@ -37,7 +37,7 @@ export default {
   @import '~/scss/minin.scss';
   .main-container{
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
   }
   .header-wrapper{
     height:80px
