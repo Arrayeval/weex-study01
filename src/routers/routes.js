@@ -20,6 +20,8 @@ import {ViewItemRoute} from '@/routers/videoRoute'
  * meta: 用于路由鉴权, status为当前路由的状态
  */
 import Start from '@/components/Start'
+
+import MusicView from '@/components/MusicView'
 export default {
   mode: 'abstract',
   routes: [
@@ -33,7 +35,7 @@ export default {
     //     status: false
     //   }
     // },
-    { // 登录页
+    { // 起始页
       path: '/',
       name: 'Start',
       component: Start,
@@ -42,8 +44,13 @@ export default {
         ...HotItemRoute,
         ...ViewItemRoute
       ]
+    },
+    { // 歌曲详情页
+      path: '/MusicView',
+      name: 'MusicView',
+      component: MusicView
+
     }
-    // ...ConfigPartRoute
   ],
   scrollBehavior (to, from, savedPosition) {
     // 每一次新开组件都回到顶部（默认：记住滚动位置）

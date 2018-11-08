@@ -1,5 +1,5 @@
 <template>
-  <div class="main-wrapper">
+  <div class="main-wrappers">
     <div class="nav-item-wrapper" @click="_getLeftModal">
       <image resize="cover" class="nav-item" :src= "_getImageFile('nav.png')"/>
     </div>
@@ -68,13 +68,14 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-.main-wrapper{
+.main-wrappers{
   height:80px;
+  width:750px;
   position:fixed;
   top:0;
   left:0;
   right:0;
-  background-color: rgb(212,60,51);
+  background-color: rgb(212, 60, 51);
   padding-left:10px;
   padding-right:20px;
   flex-direction: row;

@@ -1,6 +1,10 @@
 <template>
   <list class="main-wrapper">
     <cell class="slider-outer-wrapper">
+      <!-- <refresh class="refresh" @refresh="onrefresh" @pullingdown="onpullingdown" :display="refreshing ? 'show' : 'hide'">
+        <text class="indicator-text">Refreshing ...</text>
+        <loading-indicator class="indicator"></loading-indicator>
+      </refresh> -->
       <div class="bg-col"></div>
       <div class="slider-wrapper">
         <slider-com ></slider-com>
@@ -184,11 +188,26 @@ import SliderCom from '@/BaseCompoents/Slider'
 import {getImageFile} from '@/utils/common'
 export default {
   name: 'Recommend',
+  data () {
+    return {
+      refreshing: false,
+      lists: [1, 2, 3, 4, 5]
+    }
+  },
   methods: {
     _getImageFile (ImageName) {
       return getImageFile(ImageName)
       // console.log(getImageFile(ImageName))
     }
+    // onpullingdown (event) {
+    // },
+    // onrefresh (event) {
+    //   modal.toast({ message: 'Refreshing', duration: 1 })
+    //   this.refreshing = true
+    //   setTimeout(() => {
+    //     this.refreshing = false
+    //   }, 2000)
+    // },
   },
   components: {
     SliderCom
@@ -196,6 +215,29 @@ export default {
 }
 </script>
 <style scoped lang="scss">
+ .refresh {
+    width: 750;
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: fixed;
+    top:300px;
+  }
+  .indicator-text {
+    color: #888888;
+    font-size: 42px;
+    text-align: center;
+  }
+  .indicator {
+    margin-top: 16px;
+    height: 40px;
+    width: 40px;
+    color: blue;
+  }
   .main-wrapper{
     position: fixed;
     top:160px;

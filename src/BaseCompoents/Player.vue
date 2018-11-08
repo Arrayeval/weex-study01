@@ -1,7 +1,7 @@
 <template>
   <div class="player-wrapper-container" >
-    <div class="player-outer">
-      <div class="music-icon" ref="musicIcon">
+    <div class="player-outer" >
+      <div class="music-icon" ref="musicIcon" @click="_goView">
         <image class="img-icon" src="http://img5.imgtn.bdimg.com/it/u=1371276359,139579824&fm=200&gp=0.jpg"/>
       </div>
       <div class="music-info">
@@ -40,6 +40,11 @@ export default {
     // 获取image 路径
     _getImageFile (ImageName) {
       return getImageFile(ImageName)
+    },
+
+    // 跳转至详情
+    _goView () {
+      this.$router.push({name: 'MusicView'})
     }
   }
 }
@@ -80,6 +85,10 @@ export default {
   .img-icon{
     width:80px;
     height:80px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
     /* border-radius: 50%; */
   }
   .music-title{

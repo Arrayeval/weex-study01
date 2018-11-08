@@ -3,7 +3,9 @@
     <div class="header-wrapper">
      <HomeHeader  @getLeftModal = "_getLeftModal"></HomeHeader>
     </div>
-    <router-view></router-view>
+    <div class="content-wrapper">
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 <script>
@@ -40,6 +42,16 @@ export default {
     // flex-direction: column;
   }
   .header-wrapper{
-    height:80px
+    height:80px;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0
+  }
+  .content-wrapper{
+    position: fixed;
+    top:80px;
+    left:0;
+    right:0
   }
 </style>

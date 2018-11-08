@@ -11,7 +11,7 @@ export const HotItemRoute = [
     component: HotItem,
     children: [
       {
-        path: '',
+        path: '/',
         name: 'Recommend',
         component: Recommend
       },
