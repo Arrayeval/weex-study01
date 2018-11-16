@@ -87,10 +87,10 @@ public final class R {
 		public static final int line3 = 0x7f0f0008;
 		public static final int media_actions = 0x7f0f00ad;
 		public static final int normal = 0x7f0f0025;
-		public static final int notification_background = 0x7f0f00b6;
+		public static final int notification_background = 0x7f0f00b5;
 		public static final int notification_main_column = 0x7f0f00b0;
 		public static final int notification_main_column_container = 0x7f0f00af;
-		public static final int right_icon = 0x7f0f00b5;
+		public static final int right_icon = 0x7f0f00b6;
 		public static final int right_side = 0x7f0f00b1;
 		public static final int status_bar_latest_event_content = 0x7f0f00ac;
 		public static final int text = 0x7f0f0010;

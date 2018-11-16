@@ -819,7 +819,7 @@ public final class R {
 		public static final int navigation_header_container = 0x7f0f00a1;
 		public static final int none = 0x7f0f0029;
 		public static final int normal = 0x7f0f0025;
-		public static final int notification_background = 0x7f0f00b6;
+		public static final int notification_background = 0x7f0f00b5;
 		public static final int notification_main_column = 0x7f0f00b0;
 		public static final int notification_main_column_container = 0x7f0f00af;
 		public static final int parallax = 0x7f0f0046;
@@ -830,7 +830,7 @@ public final class R {
 		public static final int progress_horizontal = 0x7f0f000b;
 		public static final int radio = 0x7f0f007f;
 		public static final int right = 0x7f0f0043;
-		public static final int right_icon = 0x7f0f00b5;
+		public static final int right_icon = 0x7f0f00b6;
 		public static final int right_side = 0x7f0f00b1;
 		public static final int save_image_matrix = 0x7f0f000c;
 		public static final int save_non_transition_alpha = 0x7f0f000d;

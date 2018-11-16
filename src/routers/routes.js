@@ -22,6 +22,7 @@ import {ViewItemRoute} from '@/routers/videoRoute'
 import Start from '@/components/Start'
 
 import MusicView from '@/components/MusicView'
+import MusicPlay from '@/components/MusicPlay'
 export default {
   mode: 'abstract',
   routes: [
@@ -45,11 +46,15 @@ export default {
         ...ViewItemRoute
       ]
     },
-    { // 歌曲详情页
+    { // 歌手详情页
       path: '/MusicView',
       name: 'MusicView',
       component: MusicView
-
+    },
+    { // 歌曲播放页
+      path: '/MusicPlay',
+      name: 'MusicPlay',
+      component: MusicPlay
     }
   ],
   scrollBehavior (to, from, savedPosition) {

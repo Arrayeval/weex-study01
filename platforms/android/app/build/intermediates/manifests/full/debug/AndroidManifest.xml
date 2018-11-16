@@ -5,7 +5,7 @@
     android:versionName="1.0.0" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="16"
         android:targetSdkVersion="26" />
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -73,6 +73,16 @@
         <meta-data
             android:name="android.arch.lifecycle.VERSION"
             android:value="27.0.0-SNAPSHOT" />
+
+        <service
+            android:name="com.alibaba.android.bindingx.plugin.weex.WXBindingXModuleService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="bindingx" />
+                <action android:name="binding" />
+                <action android:name="expressionBinding" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>

@@ -1,3 +1,4 @@
+<!--滚动组件-->
 <template>
   <div>
     <slider class="slider" interval="3000" auto-play="true" show-indicators="true"  scrollable ="true" :index="2">

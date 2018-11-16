@@ -1,12 +1,12 @@
 <template>
   <div class="player-wrapper-container" >
     <div class="player-outer" >
-      <div class="music-icon" ref="musicIcon" @click="_goView">
+      <div class="music-icon" ref="musicIcon" @click="_goMusicPlay">
         <image class="img-icon" src="http://img5.imgtn.bdimg.com/it/u=1371276359,139579824&fm=200&gp=0.jpg"/>
       </div>
       <div class="music-info">
-        <text class="music-title">喜欢你</text>
-        <text class="music-info">横划可以切换上下首</text>
+        <text class="music-title" @click="_goView">喜欢你</text>
+        <text class="music-info">邓紫棋</text>
       </div>
       <div class="music-action">
         <div class="music-start" @click="_playMusic">
@@ -21,6 +21,8 @@
 </template>
 <script>
 import {getImageFile} from '@/utils/common'
+var navigator = weex.requireModule('navigator')
+var modal = weex.requireModule('modal')
 const animation = weex.requireModule('animation')
 export default {
   name: 'Player',
@@ -45,6 +47,20 @@ export default {
     // 跳转至详情
     _goView () {
       this.$router.push({name: 'MusicView'})
+    },
+    _goMusicPlay () {
+      this.$router.push({name: 'MusicPlay'})
+    },
+    jump (event) {
+      // console.log('will jump',  weex.config.bundleUrl)
+      // const toUrl = 'http://127.0.0.1:8080/dist/Demo.js'
+      console.log('navitgato')
+      navigator.push({
+        url: 'http://10.9.8.123:8081/dist/MusicView.js',
+        animated: 'true'
+      }, event => {
+        modal.toast({ message: 'callback: ' + event })
+      })
     }
   }
 }

@@ -1,50 +1,49 @@
  <template>
- <div>
-    <wxc-tab-page
-      class="main-wrapper"
-      ref="wxc-tab-page"
-      :tab-titles="tabTitles"
-      :tab-styles="tabStyles"
-      title-type="text"
-      :need-slider= true
-      :tab-page-height="tabPageHeight"
-      @wxcTabPageCurrentTabSelected="getCurrentTabSelected">
-      <!--最热门-->
-      <list 
-          class="item-container"
-          :style="{ height: (tabPageHeight - tabStyles.height) + 'px' }">
-        <!-- <cell class="border-cell"></cell> -->
-        <cell class="top-cell-icon">
-          <image resize="cover" class="image-icon" src="http://img1.imgtn.bdimg.com/it/u=4269449836,3142709149&fm=200&gp=0.jpg"/>
-        </cell>
-        <cell v-for="(item,key) in demoList"
-              class="cell"
-              :key="key">
-            <div class="content">
-              <div class="item-index">
-                <text class="item-index-num">{{key}}</text>
-              </div>
-              <div class="item-info-wrapper">
-                <div class="item-info-view">
-                  <text class="item-title">{{item.title}}</text>
-                  <text class="item-singer">{{item.author}} -- {{item.source}}</text>
+  <div>
+      <wxc-tab-page
+        class="main-wrapper"
+        ref="wxc-tab-page"
+        :tab-titles="tabTitles"
+        :tab-styles="tabStyles"
+        title-type="text"
+        :need-slider= true
+        :tab-page-height="tabPageHeight"
+        @wxcTabPageCurrentTabSelected="getCurrentTabSelected">
+        <!--最热门-->
+        <list
+            class="item-container"
+            :style="{ height: (tabPageHeight - tabStyles.height) + 'px' }">
+          <!-- <cell class="border-cell"></cell> -->
+          <cell class="top-cell-icon">
+            <image resize="cover" class="image-icon" src="http://img1.imgtn.bdimg.com/it/u=4269449836,3142709149&fm=200&gp=0.jpg"/>
+          </cell>
+          <cell v-for="(item,key) in demoList"
+                class="cell"
+                :key="key">
+              <div class="content">
+                <div class="item-index">
+                  <text class="item-index-num">{{key}}</text>
                 </div>
-                <div class="item-play">
-                  <image class="item-img" :src = "_getImageFile('player.png')"/>
-                </div>              
-              </div>
-          </div>
-          <!-- <wxc-pan-item :ext-id="'1-' + (v) + '-' + (key)"
-                        url="https://h5.m.taobao.com/trip/ticket/detail/index.html?scenicId=2675"
-                        @wxcPanItemPan="wxcPanItemPan">
-          
-          </wxc-pan-item> -->
-        </cell>
-      </list>
-      <!--青春校友-->
-    </wxc-tab-page>
- <image resize="cover" class="image-icon" src="http://img2.imgtn.bdimg.com/it/u=3679679032,1668832370&fm=26&gp=0.jpg"/>
- </div>
+                <div class="item-info-wrapper">
+                  <div class="item-info-view">
+                    <text class="item-title">{{item.title}}</text>
+                    <text class="item-singer">{{item.source}}</text>
+                  </div>
+                  <div class="item-play">
+                    <image class="item-img" :src = "_getImageFile('player.png')"/>
+                  </div>
+                </div>
+            </div>
+            <!-- <wxc-pan-item :ext-id="'1-' + (v) + '-' + (key)"
+                url="https://h5.m.taobao.com/trip/ticket/detail/index.html?scenicId=2675"
+                @wxcPanItemPan="wxcPanItemPan">
+            </wxc-pan-item> -->
+          </cell>
+        </list>
+        <!--青春校友-->
+      </wxc-tab-page>
+      <image resize="cover" class="image-icon" src="http://img2.imgtn.bdimg.com/it/u=3679679032,1668832370&fm=26&gp=0.jpg"/>
+  </div>
 </template>
 <style scoped>
   .main-wrapper{
@@ -52,7 +51,7 @@
   }
   .item-container {
     width: 750px;
-    margin-bottom:100px;
+    padding-bottom:100px;
     background-color: #ffffff;
     /* justify-content: center; */
   }
@@ -162,7 +161,6 @@ export default {
     getCurrentTabSelected (e) {
       const self = this
       const index = e.page
-      self._index = index
       /* Unloaded tab analog data request */
       if (!Utils.isNonEmptyArray(self.tabList[index])) {
         setTimeout(() => {

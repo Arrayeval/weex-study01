@@ -30,9 +30,11 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "bindingx-parser": "0.0.3",
     "phantom-limb": "0.0.1",
     "vue": "^2.5.11",
     "vue-router": "^3.0.1",
+    "weex-bindingx": "0.0.49",
     "weex-ui": "^0.6.7",
     "weex-vue-render": "^1.0.17"
   },

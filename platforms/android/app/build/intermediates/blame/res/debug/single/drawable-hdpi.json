@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\player.png",
+        "source": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\player.png"
+    },
+    {
         "merged": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ranking_sponsor_post.png",
         "source": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\ranking_sponsor_post.png"
     },
@@ -14,6 +18,10 @@
     {
         "merged": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\music_list.png",
         "source": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\music_list.png"
+    },
+    {
+        "merged": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\list_alt.png",
+        "source": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\list_alt.png"
     },
     {
         "merged": "E:\\myFile\\selfDemo\\weex-study01\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nav.png",
