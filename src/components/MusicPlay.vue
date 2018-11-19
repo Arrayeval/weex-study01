@@ -1,5 +1,6 @@
 <template>
   <div class="main-container">
+     <!--top header-->
      <div class="header-top">
        <div class="back-icon" @click="_backRoute">
         <image class="back-img" :src = "_getImageFile('left.png')"/>
@@ -11,74 +12,103 @@
         <text class="text-sty">分享</text>
       </div>
      </div>
-     <!--pic-->
-     <div class="radius-platform">
+     <!--pic circle-->
+     <div class="radius-platform" :class='[_isShow()]'>
        <div class="border-outer-wrapper">
          <div class="border-inner-wrapper">
            <div class="music-icon-wrapper">
-             <image class="music-icon-img"  resize="cover" src="http://h.hiphotos.baidu.com/baike/pic/item/d1a20cf431adcbef011db9bba6af2edda3cc9f66.jpg"/>
+            <image class="music-icon-img"  resize="cover" src="http://h.hiphotos.baidu.com/baike/pic/item/d1a20cf431adcbef011db9bba6af2edda3cc9f66.jpg"/>
            </div>
          </div>
        </div>
      </div>
      <!--歌词部分-->
      <div class="word-container">
-       <div class="word-text-wrapper">
-         <scroller class="word-slider">
+       <div class="word-text-wrapper" >
+         <scroller class="word-slider" :class='[_hasMoreHeight()]'>
           <list class="word-outer-wrapper">
-            <cell class="word-inner-wrapper"><text class="word-sty">这是第一句这是第一句这是第一句</text></cell>
-            <cell class="word-inner-wrapper"><text class="word-sty">这是第一句</text></cell>
-            <cell class="word-inner-wrapper"><text class="word-sty">这是第一句</text></cell>
-            <cell class="word-inner-wrapper"><text class="word-sty">这这是第一句这是第一句是第一句</text></cell>
-            <cell class="word-inner-wrapper"><text class="word-sty">这是第一句这是第一句这是第一句</text></cell>
-            <cell class="word-inner-wrapper"><text class="word-sty">这是第一句</text></cell>
-            <cell class="word-inner-wrapper"><text class="word-sty">这是第一句</text></cell>
-            <cell class="word-inner-wrapper"><text class="word-sty">这是第一句</text></cell>
-            <cell class="word-inner-wrapper"><text class="word-sty">这是第一句这是第一句这是第一句</text></cell>
-            <cell class="word-inner-wrapper"><text class="word-sty">这是第一句</text></cell>
-            <cell class="word-inner-wrapper"><text class="word-sty">这是第一句</text></cell>
-            <cell class="word-inner-wrapper"><text class="word-sty">这是第一句</text></cell>
-            <cell class="word-inner-wrapper"><text class="word-sty">这是第一句</text></cell>
-            <cell class="word-inner-wrapper"><text class="word-sty">这这是第一句这是第一句是第一句</text></cell>
-            <cell class="word-inner-wrapper"><text class="word-sty">这是第一句</text></cell>
-            <cell class="word-inner-wrapper"><text class="word-sty">这是第一句</text></cell>
-            <cell class="word-inner-wrapper"><text class="word-sty">这是第一句</text></cell>
-            <cell class="word-inner-wrapper"><text class="word-sty">这是第一句</text></cell>
-            <cell class="word-inner-wrapper"><text class="word-sty">这是第一句</text></cell>
-            <cell class="word-inner-wrapper"><text class="word-sty">这是第一句</text></cell>
-            <cell class="word-inner-wrapper"><text class="word-sty">这是第一句</text></cell>
-            <cell class="word-inner-wrapper"><text class="word-sty">这是第一句</text></cell>
-            <cell class="word-inner-wrapper"><text class="word-sty">这是第一句</text></cell>
-            <cell class="word-inner-wrapper"><text class="word-sty">这是第一句</text></cell>
-            <cell class="word-inner-wrapper"><text class="word-sty">这是第一句</text></cell>
+            <cell class="word-inner-wrapper"
+              :ref = "'Text'+`${index}`"
+              v-for="(singText, index) in config.singText" :key = 'index'>
+              <text class="word-sty">{{singText}}</text>
+            </cell>
           </list>
          </scroller>
        </div>
-       <div class="action-btn">
-         <!-- 向上的滑动按钮 -->
+       <!-- 向上的滑动按钮 -->
+       <div class="action-btn" @click="_goUpBtn">
          <image class="top-slider-icon" :src = "_getImageFile('top.png')"/>
        </div>
      </div>
-     <!-- <slider-bar  ></slider-bar> -->
+     <!-- <slider-bar></slider-bar> -->
   </div>
 </template>
 <script>
 // import SliderBar from '@/BaseCompoents/SliderBar'
 import {getImageFile} from '@/utils/common'
+import Config from '@/components/demo/config'
+const dom = weex.requireModule('dom')
 export default {
   name: 'MusicPlay',
-  // components: {
-  //   SliderBar
-  // },
+  data () {
+    return {
+      isShowFlag: true,
+      hasMoreHeightFlag: false,
+      config: Config,
+      singTextLine: -1
+    }
+  },
   methods: {
     // 获取图片
     _getImageFile (ImageName) {
       return getImageFile(ImageName)
     },
+
     // 返回上一层
     _backRoute () {
       this.$router.go(-1)
+    },
+
+    // 向上弹出歌词
+    _goUpBtn () {
+      this.isShowFlag = !this.isShowFlag
+      this.hasMoreHeightFlag = !this.hasMoreHeightFlag
+    },
+
+    // weex 不支持动态加载样式(vue的平常写法,故有此方法折中)
+    _isShow () {
+      if (!this.isShowFlag) {
+        return 'no-display'
+      }
+      return 'is-display'
+    },
+
+    _hasMoreHeight () {
+      if (this.hasMoreHeightFlag) {
+        return 'more-height'
+      }
+      return 'nomal-sty'
+    },
+
+    // 歌词滚动
+    _scrollSingText () {
+      setInterval(() => {
+        this.singTextLine += 1
+        const el = this.$refs[`Text${this.singTextLine}`]
+        dom.scrollToElement(el, { offset: 0 })
+      }, 2000)
     }
+  },
+  watch: {
+    'isShowFlag': function () {
+      this._isShow()
+    },
+    'hasMoreHeightFlag': function () {
+      this._hasMoreHeight()
+    }
+  },
+  created () {
+    this._scrollSingText()
   }
 }
 </script>
@@ -172,6 +202,12 @@ export default {
 }
 .word-slider{
   height:300px;
+  padding-left:10px;
+  padding-right:10px;
+}
+.more-height{
+  height:800px;
+  transition: all .3s ease;
 }
 .word-sty{
   margin-bottom:15px;
@@ -192,5 +228,11 @@ export default {
 .top-slider-icon{
   width:50px;
   height:50px;
+}
+.no-display{
+  height:0;
+  visibility: hidden;
+  opacity: 0;
+  transition:all .3s ease;
 }
 </style>
