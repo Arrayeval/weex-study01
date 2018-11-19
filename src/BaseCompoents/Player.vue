@@ -48,12 +48,13 @@ export default {
     _goView () {
       this.$router.push({name: 'MusicView'})
     },
+
     _goMusicPlay () {
       goPageRoute(this.$router, {name: 'MusicPlay'}, 'http://10.9.8.123:8082/dist/components/MusicPlay.js')
       // this.$router.push({name: 'MusicPlay'})
     },
+
     jump (event) {
-      // console.log('will jump',  weex.config.bundleUrl)
       // const toUrl = 'http://127.0.0.1:8080/dist/Demo.js'
       navigator.push({
         url: 'http://10.9.8.123:8081/dist/MusicView.js',
