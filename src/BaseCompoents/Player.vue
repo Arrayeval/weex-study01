@@ -20,7 +20,7 @@
   </div>
 </template>
 <script>
-import {getImageFile} from '@/utils/common'
+import {getImageFile, goPageRoute} from '@/utils/common'
 var navigator = weex.requireModule('navigator')
 var modal = weex.requireModule('modal')
 const animation = weex.requireModule('animation')
@@ -49,12 +49,12 @@ export default {
       this.$router.push({name: 'MusicView'})
     },
     _goMusicPlay () {
-      this.$router.push({name: 'MusicPlay'})
+      goPageRoute(this.$router, {name: 'MusicPlay'}, 'http://10.9.8.123:8082/dist/components/MusicPlay.js')
+      // this.$router.push({name: 'MusicPlay'})
     },
     jump (event) {
       // console.log('will jump',  weex.config.bundleUrl)
       // const toUrl = 'http://127.0.0.1:8080/dist/Demo.js'
-      console.log('navitgato')
       navigator.push({
         url: 'http://10.9.8.123:8081/dist/MusicView.js',
         animated: 'true'

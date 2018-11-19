@@ -37,7 +37,7 @@ export default {
     //   }
     // },
     { // 起始页
-      path: '/Start',
+      path: '/',
       name: 'Start',
       component: Start,
       children: [
@@ -52,7 +52,7 @@ export default {
       component: MusicView
     },
     { // 歌曲播放页
-      path: '/',
+      path: '/MusicPlay',
       name: 'MusicPlay',
       component: MusicPlay
     }

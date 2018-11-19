@@ -45,6 +45,7 @@
 </template>
 <script>
 // import SliderBar from '@/BaseCompoents/SliderBar'
+import {FetchFun} from '@/api/index'
 import {getImageFile} from '@/utils/common'
 import Config from '@/components/demo/config'
 const dom = weex.requireModule('dom')
@@ -94,9 +95,23 @@ export default {
     _scrollSingText () {
       setInterval(() => {
         this.singTextLine += 1
+        // var _tmpLine = this.singTextLine
         const el = this.$refs[`Text${this.singTextLine}`]
         dom.scrollToElement(el, { offset: 0 })
+        // window.scrollTo(100 * _tmpLine, 0)
       }, 2000)
+    },
+
+    // 获取歌词
+    _getLyric () {
+      FetchFun.getLyric({
+        succFun: (res) => {
+          console.log(res)
+        },
+        errFun: (err) => {
+          console.log(err)
+        }
+      })
     }
   },
   watch: {
@@ -108,7 +123,8 @@ export default {
     }
   },
   created () {
-    this._scrollSingText()
+    // this._scrollSingText()
+    this._getLyric()
   }
 }
 </script>
