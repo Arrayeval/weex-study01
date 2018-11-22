@@ -1,7 +1,7 @@
 <template>
   <div class="player-wrapper-container" >
     <div class="player-outer" >
-      <div class="music-icon" ref="musicIcon" @click="_goMusicPlay">
+      <div class="music-icon" ref="musicIcon" @click="jump">
         <image class="img-icon" src="http://img5.imgtn.bdimg.com/it/u=1371276359,139579824&fm=200&gp=0.jpg"/>
       </div>
       <div class="music-info">
@@ -46,18 +46,18 @@ export default {
 
     // 跳转至详情
     _goView () {
-      this.$router.push({name: 'MusicView'})
+      // this.$router.push({name: 'MusicView'})
+      goPageRoute(this.$router, navigator, {name: 'MusicView'}, 'http://10.9.8.77:8081/dist/components/MusicView.js')
     },
 
     _goMusicPlay () {
-      goPageRoute(this.$router, {name: 'MusicPlay'}, 'http://10.9.8.123:8082/dist/components/MusicPlay.js')
+      goPageRoute(this.$router, navigator, {name: 'MusicPlay'}, 'https://www.baidu.com/')
       // this.$router.push({name: 'MusicPlay'})
     },
 
     jump (event) {
-      // const toUrl = 'http://127.0.0.1:8080/dist/Demo.js'
       navigator.push({
-        url: 'http://10.9.8.123:8081/dist/MusicView.js',
+        url: 'https://www.baidu.com/s?wd=weex&rsv_spt=1&rsv_iqid=0xcd9e7d2500004b54&issp=1&f=8&rsv_bp=0&rsv_idx=2&ie=utf-8&tn=baiduhome_pg&rsv_enter=1&rsv_sug3=4&rsv_sug1=4&rsv_sug7=100&rsv_t=40d4oQDSTevq2AjxHS427r81f8jbliy7cptJWa8k8ofDJ0bo4PjzpRASG4OvsFLx21gF&rsv_sug2=0&inputT=1242&rsv_sug4=1242&rsv_sug=2',
         animated: 'true'
       }, event => {
         modal.toast({ message: 'callback: ' + event })

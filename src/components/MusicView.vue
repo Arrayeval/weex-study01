@@ -106,13 +106,13 @@ export default {
 
 }
 .item-lag{
-  display: inline-block;
+  // display: inline-block;
   width:100px;
   font-size:20px;
   font-weight:bold;
 }
 .item-content{
-  display: inline-block;
+  // display: inline-block;
   line-height: 40px;
   flex:1;
   font-size:20px;

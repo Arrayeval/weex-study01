@@ -532,10 +532,12 @@ export function getImageFile (imageName) {
 *针对路由的封装
 * 在调用的时候要进行pc区分，应为path会有所不同
 */
-export function goPageRoute (router, pathWebObj, pathNative) { // router: web,h5端的this.$router, navigation:原生weex 的navigation
+export function goPageRoute (router, navigatorww, pathWebObj, pathNative) { // router: web,h5端的this.$router, navigation:原生weex 的navigation
   // const env = weex.config.env || WXEnvironment
-  IsPC() ? router.push({...pathWebObj}) : (function () {
+  // var navigator = weex.requireModule('navigator')
+  // navigatorww.push({url: pathNative, animated: 'true'})
+  weex.config.env.platform === 'Web' ? router.push({...pathWebObj}) : (() => {
     var navigator = weex.requireModule('navigator')
-    navigator.push({pathNative, animated: 'true'})
+    navigator.push({url: pathNative, animated: 'true'})
   })()
 }

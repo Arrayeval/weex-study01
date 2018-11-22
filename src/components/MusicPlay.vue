@@ -25,7 +25,7 @@
      <!--歌词部分-->
      <div class="word-container">
        <div class="word-text-wrapper" >
-         <scroller class="word-slider" :class='[_hasMoreHeight()]'>
+         <scroller class="word-slider" :class='_hasMoreHeight'>
           <list class="word-outer-wrapper">
             <cell class="word-inner-wrapper"
               :ref = "'Text'+`${index}`"
@@ -59,6 +59,14 @@ export default {
       singTextLine: -1
     }
   },
+  computed: {
+    _hasMoreHeight () {
+      if (this.hasMoreHeightFlag) {
+        return 'more-height'
+      }
+      return 'nomal-sty'
+    }
+  },
   methods: {
     // 获取图片
     _getImageFile (ImageName) {
@@ -84,12 +92,12 @@ export default {
       return 'is-display'
     },
 
-    _hasMoreHeight () {
-      if (this.hasMoreHeightFlag) {
-        return 'more-height'
-      }
-      return 'nomal-sty'
-    },
+    // _hasMoreHeight () {
+    //   if (this.hasMoreHeightFlag) {
+    //     return 'more-height'
+    //   }
+    //   return 'nomal-sty'
+    // },
 
     // 歌词滚动
     _scrollSingText () {
@@ -153,10 +161,6 @@ export default {
   width:50px;
   height:50px;
 }
-// .header-item{
-//   width:300px;
-//   align-items: center;
-// }
 .title-action{
   position: absolute;
   right:30px;
@@ -247,7 +251,6 @@ export default {
 }
 .no-display{
   height:0;
-  visibility: hidden;
   opacity: 0;
   transition:all .3s ease;
 }
