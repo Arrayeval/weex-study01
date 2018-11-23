@@ -20,7 +20,8 @@
   </div>
 </template>
 <script>
-import {getImageFile, goPageRoute} from '@/utils/common'
+// import {getImageFile, goPageRoute} from '@/utils/common'
+const commonFun = require('@/utils/common')
 var navigator = weex.requireModule('navigator')
 var modal = weex.requireModule('modal')
 const animation = weex.requireModule('animation')
@@ -46,18 +47,18 @@ export default {
     },
     // 获取image 路径
     _getImageFile (ImageName) {
-      return getImageFile(ImageName)
+      return commonFun.getImageFile(ImageName)
     },
 
     // 跳转至详情
     _goView () {
       // this.$router.push({name: 'MusicView'})
-      goPageRoute(this.$router, {name: 'MusicView'})
+      commonFun.goPageRoute(this.$router, {name: 'MusicView'})
     },
 
     _goMusicPlay () {
       var navigator = weex.requireModule('navigator')
-      goPageRoute(this.$router, navigator, {name: 'MusicView'})
+      commonFun.goPageRoute(this.$router, navigator, {name: 'MusicView'})
       /*
       var navigator = weex.requireModule('navigator')
       var bundleUrl = weex.config.bundleUrl

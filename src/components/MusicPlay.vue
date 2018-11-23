@@ -46,8 +46,9 @@
 <script>
 // import SliderBar from '@/BaseCompoents/SliderBar'
 import {FetchFun} from '@/api/index'
-import {getImageFile} from '@/utils/common'
+// import {getImageFile} from '@/utils/common'
 import Config from '@/components/demo/config'
+const commonFun = require('@/utils/common')
 const dom = weex.requireModule('dom')
 export default {
   name: 'MusicPlay',
@@ -70,7 +71,7 @@ export default {
   methods: {
     // 获取图片
     _getImageFile (ImageName) {
-      return getImageFile(ImageName)
+      return commonFun.getImageFile(ImageName)
     },
 
     // 返回上一层

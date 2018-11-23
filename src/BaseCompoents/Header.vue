@@ -21,7 +21,8 @@
 </template>
 <script>
 import Modal from '@/BaseCompoents/Modal.vue'
-import {getImageFile} from '@/utils/common'
+// import {getImageFile} from '@/utils/common'
+const commonFun = require('@/utils/common')
 export default {
   name: 'Header',
   data () {
@@ -59,7 +60,7 @@ export default {
 
     // 获取image 路径
     _getImageFile (ImageName) {
-      return getImageFile(ImageName)
+      return commonFun.getImageFile(ImageName)
     }
   },
   components: {

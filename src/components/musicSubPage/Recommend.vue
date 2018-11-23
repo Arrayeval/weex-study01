@@ -185,7 +185,8 @@
 </template>
 <script>
 import SliderCom from '@/BaseCompoents/Slider'
-import {getImageFile} from '@/utils/common'
+// import {getImageFile} from '@/utils/common'
+const commonFun = require('@/utils/common')
 export default {
   name: 'Recommend',
   data () {
@@ -196,7 +197,7 @@ export default {
   },
   methods: {
     _getImageFile (ImageName) {
-      return getImageFile(ImageName)
+      return commonFun.getImageFile(ImageName)
       // console.log(getImageFile(ImageName))
     }
     // onpullingdown (event) {

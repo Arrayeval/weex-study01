@@ -135,7 +135,8 @@
 <script>
 import { WxcTabPage, WxcPanItem, Utils, BindEnv } from 'weex-ui'
 import Config from '../modules/config'
-import {getImageFile} from '@/utils/common'
+// import {getImageFile} from '@/utils/common'
+const commonFun = require('@/utils/common')
 // const dom = weex.requireModule('dom')
 export default {
   components: { WxcTabPage, WxcPanItem },
@@ -154,7 +155,7 @@ export default {
   },
   methods: {
     _getImageFile (ImageName) {
-      return getImageFile(ImageName)
+      return commonFun.getImageFile(ImageName)
       // console.log(getImageFile(ImageName))
     },
     // 选择tab
