@@ -6,9 +6,9 @@ import Router from 'vue-router'
 import routes from '@/routers/routes'
 Vue.use(Router)
 // 加载路由
-let router = new Router(routes)
+module.exports = new Router(routes)
 
 // 导航守卫
 // router.beforeEach(navGuard)
 
-export default router
+// export default router

@@ -1,11 +1,11 @@
 <template>
   <div class="player-wrapper-container" >
     <div class="player-outer" >
-      <div class="music-icon" ref="musicIcon" @click="jump">
-        <image class="img-icon" src="http://img5.imgtn.bdimg.com/it/u=1371276359,139579824&fm=200&gp=0.jpg"/>
+      <div class="music-icon" ref="musicIcon" >
+        <image class="img-icon" @click="_goMusicPlay" src="http://img5.imgtn.bdimg.com/it/u=1371276359,139579824&fm=200&gp=0.jpg"/>
       </div>
       <div class="music-info">
-        <text class="music-title" @click="_goView">喜欢你</text>
+        <text class="music-title" @click="_goView">喜欢你{{testData}}</text>
         <text class="music-info">邓紫棋</text>
       </div>
       <div class="music-action">
@@ -26,6 +26,11 @@ var modal = weex.requireModule('modal')
 const animation = weex.requireModule('animation')
 export default {
   name: 'Player',
+  data () {
+    return {
+      testData: ''
+    }
+  },
   methods: {
     _playMusic () {
       let musicIcon = this.$refs.musicIcon
@@ -47,12 +52,22 @@ export default {
     // 跳转至详情
     _goView () {
       // this.$router.push({name: 'MusicView'})
-      goPageRoute(this.$router, navigator, {name: 'MusicView'}, 'http://10.9.8.77:8081/dist/components/MusicView.js')
+      goPageRoute(this.$router, {name: 'MusicView'})
     },
 
     _goMusicPlay () {
-      goPageRoute(this.$router, navigator, {name: 'MusicPlay'}, 'https://www.baidu.com/')
-      // this.$router.push({name: 'MusicPlay'})
+      var navigator = weex.requireModule('navigator')
+      goPageRoute(this.$router, navigator, {name: 'MusicView'})
+      /*
+      var navigator = weex.requireModule('navigator')
+      var bundleUrl = weex.config.bundleUrl
+      var nativeBase = bundleUrl.substring(0, bundleUrl.lastIndexOf('/') + 1)
+      var url = nativeBase + 'dist/components/' + 'MusicPlay.js'
+      navigator.push({url, animated: 'true'}, event => {
+        const modal = weex.requireModule('modal')
+        modal.toast({ message: url })
+      })
+      */
     },
 
     jump (event) {

@@ -217,12 +217,6 @@ export default {
 <style scoped lang="scss">
  .refresh {
     width: 750;
-    display: -ms-flex;
-    display: -webkit-flex;
-    display: flex;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
     align-items: center;
     position: fixed;
     top:300px;
