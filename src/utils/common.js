@@ -16,7 +16,8 @@ module.exports = {
       return _filePrefix + _pureFileName
     }
     if (_platform === 'iOS') {
-      return ''
+      let _filePrefix = 'local://'
+      return _filePrefix + _pureFileName
     }
     if (_platform === 'Web') {
       let _filePrefix = '../../src/assets/icons/'
