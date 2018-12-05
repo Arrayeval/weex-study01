@@ -30,12 +30,16 @@ See [How-to-create-your-own-template](https://github.com/weex-templates/How-to-c
 ```
 1）关于图片资源的加载，android,ios要进行特殊处理，image要设置width,height
 ```
- <image  width="200px" height="200px"/>
+ <image  width="200px" height="200px" src="https://vuejs.org/images/logo.png"/>
 ```
+
 2）关于命令行打包使用
 ```
 npm start: web本地查看
 weex run android: 打包apk(android) ,对应查看dist， realease文件夹下
 npm run pack:web：打包web端，对应查看release文件夹下
 ```
-
+3）不同平台加载image资源方式有所不同
+```
+npm run copy
+```
