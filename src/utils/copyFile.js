@@ -1,3 +1,4 @@
+// @fun 针对于weex框架image静态资源加载web,ios,android的加载方式不同做的特殊处理
 'use strict'
 const mkdirp = require('mkdirp')
 const filecopy = require('filecopy')
