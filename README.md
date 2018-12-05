@@ -30,7 +30,7 @@ See [How-to-create-your-own-template](https://github.com/weex-templates/How-to-c
 ```
 1）关于图片资源的加载，android,ios要进行特殊处理，image要设置width,height
 ```
- <image  width="200px" height="200px"/>
+ <image  width="200px" height="200px" src="https://vuejs.org/images/logo.png"/>
 ```
 2）关于命令行打包使用
 ```
